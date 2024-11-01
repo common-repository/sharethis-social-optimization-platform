@@ -1,0 +1,15 @@
+.misc-pub-section.misc-pub-sharethis:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	color: #82878c;
+	content: "\f237";
+	display: inline-block;
+	font: 400 20px/1 dashicons;
+	left: -1px;
+	padding: 0 2px 0 0;
+	position: relative;
+	speak: none;
+	text-decoration: none!important;
+	top: 0;
+	vertical-align: top;
+}

@@ -1,0 +1,79 @@
+#landing-page {
+	text-align: center;
+}
+
+.page-title {
+	color: #444;
+	font-size: 30px;
+	font-weight: 100;
+	margin: 0 auto;
+	max-width: 90%;
+	padding: 0 0 20px;
+	text-align: center;
+	width: 1080px;
+}
+
+.buttons .button:not(:last-of-type) {
+	margin-right: 20px;
+}
+.sop-button.bg-red {
+	box-shadow: 0 4px 0 0 #ea4449;
+}
+.sop-button.bg-grey {
+	box-shadow: 0 4px 0 0 #45555f;
+}
+.sop-button, .sop-button>span {
+	display: inline-block;
+	text-align: center;
+}
+.buttons .sop-button:not(:last-of-type) {
+	margin-right: 20px;
+}
+.sop-button {
+	-ms-filter: none;
+	-webkit-transition: opacity .2s ease-out;
+	border-radius: 4px;
+	color: #fff;
+	cursor: pointer;
+	filter: none;
+	font-size: 14px;
+	font-weight: 400;
+	height: 40px;
+	letter-spacing: .1em;
+	line-height: 40px;
+	min-width: 100px;
+	opacity: 1;
+	padding: 0 20px;
+	position: relative;
+	transition: opacity .2s ease-out;
+	text-transform: uppercase;
+}
+.bg-red {
+	background: #ef7276;
+	color: #fff;
+}
+.bg-grey {
+	background: #657d8b;
+}
+.bg-teal {
+	background: #1cb3a5;
+}
+.bg-green>a, .bg-grey, .bg-teal {
+	color: #fff;
+}
+.sop-button.bg-teal {
+	box-shadow: 0 3px 0 0 #127168;
+}
+.sop-button.bg-teal:hover {
+	background: #1aa699;
+}
+.sop-button.bg-red:hover {
+	background: #ed6469;
+}
+
+img {
+	max-width: 100%;
+}
+.sop-button:hover {
+	color: #fff;
+}
